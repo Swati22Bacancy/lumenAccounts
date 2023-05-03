@@ -36,11 +36,6 @@
         "sort-packages": true
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "C:/xampp/htdocs/LumenApi/App/Helpers"
-        }
-    ]
+    "prefer-stable": true
+    
 }

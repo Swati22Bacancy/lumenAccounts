@@ -22,3 +22,6 @@ $router->post('/accounts', 'AccountController@store');
 $router->get('/accounts/{account}', 'AccountController@show');
 $router->post('/updateaccount/{account}', 'AccountController@updateaccount');
 $router->delete('/accounts/{account}', 'AccountController@destroy');
+$router->get('/accountscommon', 'AccountController@accountCommonFunction');
+
+
